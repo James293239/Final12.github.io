@@ -1,0 +1,59 @@
+h1{
+  text-align: center;
+}
+#bio{
+  text-align: center;
+  background-color: lightblue;
+}
+h2{
+  text-align: center;
+}
+#Exp{
+  text-align: center;
+  background-color: lightgreen;
+}
+h3{
+  text-align: center;
+}
+#hobbys{
+  text-align: center;
+}
+.flex3{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.flex3 div{
+  height: 90px;
+}
+
+.flex3 div:nth-child(1){
+width: 100%;
+background-color: red;
+
+}
+
+.flex3 div:nth-child(2){
+  width: 60%;
+  background-color: lightblue;
+}
+
+.flex3 div:nth-child(3){
+  width: 40%;
+  background-color: lightgreen;
+}
+
+.flex3 div:nth-child(4){
+  width: 50%;
+  background-color: yellow;
+}
+
+.flex3 div:nth-child(5){
+  width: 50%;
+  background-color: purple;
+}
